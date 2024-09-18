@@ -1,2 +1,2 @@
-https://github.com/mongodb-forks/django/archive/refs/heads/mongodb-5.0.x.zip
+-e git+ssh://git@github.com/mongodb-forks/django@mongodb-5.0.x#egg=django
 -e git+ssh://git@github.com/mongodb-labs/django-mongodb#egg=django-mongodb
