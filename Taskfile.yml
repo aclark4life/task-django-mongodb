@@ -13,3 +13,7 @@ tasks:
   cp:
       - git commit -a -m "Update"
       - git push
+  i:
+    cmds:
+      - echo "Install"
+    silent: true
