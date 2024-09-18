@@ -10,4 +10,5 @@ tasks:
     cmds:
       - echo "{{.GREETING}}"
       - git commit -a -m "Update"
+      - git push
     silent: true
