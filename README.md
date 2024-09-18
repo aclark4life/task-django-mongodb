@@ -2,4 +2,5 @@
 
 ```bash
 task i
+task t
 ```
