@@ -9,6 +9,7 @@ tasks:
   default:
     cmds:
       - echo "{{.GREETING}}"
+    silent: true
+  cp:
       - git commit -a -m "Update"
       - git push
-    silent: true
