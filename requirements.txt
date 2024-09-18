@@ -1,1 +1,2 @@
--e git+ssh://git@github.com:mongodb-forks/django#egg=django
+-e git+ssh://git@github.com/mongodb-forks/django.git#egg=django
+-e git+ssh://git@github.com/mongodb-labs/django-mongodb#egg=django-mongodb

@@ -16,6 +16,7 @@ tasks:
   i:
     cmds:
       - echo "Install"
+      - pip install -r requirements.txt
     silent: true
   e:
     cmds:
