@@ -18,8 +18,6 @@ tasks:
       - pip install --upgrade pip
       - pip install -r requirements.txt
       - pip install -r src/django/tests/requirements/py3.txt
-      - pip install src/django
-      - pip install src/django-mongodb
     silent: true
   t:
     cmds:
