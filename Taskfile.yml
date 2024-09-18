@@ -17,3 +17,8 @@ tasks:
     cmds:
       - echo "Install"
     silent: true
+  e:
+    cmds:
+      - echo "Edit"
+      - nvim Taskfile.yml
+    silent: true
