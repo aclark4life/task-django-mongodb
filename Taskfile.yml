@@ -3,6 +3,7 @@
 version: '3'
 
 vars:
+  C_INCLUDE_PATH: /opt/homebrew/Cellar/libmemcached/1.0.18_2/include
   GREETING: Testing django-mongodb with go-task!
 
     Based on https://github.com/mongodb-labs/django-mongodb/blob/main/.github/workflows/test-python.yml
@@ -24,7 +25,7 @@ tasks:
       - echo "Install"
       - pip install --upgrade pip
       - pip install -r requirements.txt
-      - pip install -r src/django/tests/requirements/py3.txt
+      - export C_INCLUDE_PATH="{{.C_INCLUDE_PATH}}" && pip install -r src/django/tests/requirements/py3.txt
       - cp mongodb_settings.py src/django/tests/mongodb_settings.py
     silent: true
   t:
